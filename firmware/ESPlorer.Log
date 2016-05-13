@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2016-04-28T16:32:12</date>
+  <millis>1461871932875</millis>
+  <sequence>4</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Load saved settings: Firmware:NodeMCU</message>
+</record>
+<record>
+  <date>2016-04-28T16:32:12</date>
+  <millis>1461871932975</millis>
+  <sequence>5</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2016-04-28T16:32:12</date>
+  <millis>1461871932977</millis>
+  <sequence>6</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2016-04-28T16:32:13</date>
+  <millis>1461871933015</millis>
+  <sequence>7</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Set new color theme: Success.</message>
+</record>
+<record>
+  <date>2016-04-28T16:32:13</date>
+  <millis>1461871933018</millis>
+  <sequence>8</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Load saved settings: DONE.</message>
+</record>
+<record>
+  <date>2016-04-28T16:32:13</date>
+  <millis>1461871933020</millis>
+  <sequence>9</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2016-04-28T16:32:13</date>
+  <millis>1461871933021</millis>
+  <sequence>10</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2016-04-28T16:32:13</date>
+  <millis>1461871933561</millis>
+  <sequence>11</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Using custom port name /dev/ttyUSB0</message>
+</record>
+</log>
