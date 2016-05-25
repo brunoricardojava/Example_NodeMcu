@@ -10,7 +10,7 @@ function manipulateLED(STATUS)
 
 	light(STATUS)
 
-	if STATUS == OFF then
+	if STATUS == "OFF" then
 		--confirma a recepção de menssagem no topico /mcu/comando
 		m:publish("testtopic/sensor1","LED OFF",0,0, function(m) print("LED OFF") end)
 	else
@@ -22,7 +22,7 @@ end
 -- Como dicionario em Python, um array que no momento esta armazenando apenas a funcao de LED
 m_dist["testtopic/sensor1"] = manipulateLED
 
-m = mqtt.Client("ESP_001", 60, "dobitaobyte", "naoContoAsenha")
+m = mqtt.Client(MQTT_CLIENTID, 60, "lasse", "lassemqtt")
 
 m:lwt("/lwt","online",0,0)
 
@@ -45,10 +45,12 @@ end)
 --dispatcher e interpreter
 m:on("message",function(m,t,pl) print("Payload: ",pl)
 	print("Topic: ",t)
-	if pl~=nil and m_dist[t] then
-		m_dist[t](pl)
-	end
+    light(pl)
+	--if pl~=nil and m_dist[t] then
+		--m_dist[t](pl)
+       --print("valor pl: ", pl)
+	--end
 end)
 
 --conexão ao Broker
---m:connect(MQTT_HOST,MQTT_PORT,0,1)
+m:connect(MQTT_HOST,MQTT_PORT,0,1)
